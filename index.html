@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Truth Dakota</title>
+    <style>
+        body {
+            background-color: #FFFFEE;
+            color: #000000;
+            font-family: Arial, Verdana, sans-serif;
+            font-size: 10pt;
+            margin: 0;
+            padding: 8px;
+        }
+        a {
+            color: #000080;
+            text-decoration: none;
+        }
+        a:hover {
+            color: #DD0000;
+            text-decoration: underline;
+        }
+        h1 {
+            text-align: center;
+            color: #800000;
+            font-size: 2em;
+            margin-bottom: 5px;
+        }
+        .nav {
+            text-align: center;
+            font-size: 10pt;
+            margin-bottom: 20px;
+        }
+        .post-form-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        table.post-form {
+            border-collapse: collapse;
+        }
+        table.post-form td {
+            padding: 2px 4px;
+        }
+        .form-label {
+            background-color: #EEAA88;
+            border: 1px solid #D9BFB7;
+            color: #800000;
+            font-weight: bold;
+            text-align: left;
+        }
+        input, textarea, select, button {
+            border: 1px solid #D9BFB7;
+            background-color: #FFFFFF;
+            font-family: Arial, Verdana, sans-serif;
+            font-size: 10pt;
+            border-radius: 0;
+            box-shadow: none;
+        }
+        .thread {
+            margin-top: 15px;
+            clear: both;
+        }
+        .thread-header {
+            font-size: 10pt;
+            margin-bottom: 8px;
+        }
+        .subject {
+            color: #800000;
+            font-weight: bold;
+        }
+        .name {
+            color: #117743;
+            font-weight: bold;
+        }
+        .post-number {
+            color: #000000;
+        }
+        .post-text {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 12pt;
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+        .reply-container {
+            margin-top: 10px;
+            margin-bottom: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            clear: both;
+        }
+        .reply {
+            background-color: #F0E0D6;
+            border: 1px solid #D9BFB7;
+            padding: 8px;
+            margin-left: 20px;
+            margin-bottom: 5px;
+        }
+        .quote {
+            color: #789922;
+        }
+        hr {
+            border: 0;
+            border-top: 1px solid #D9BFB7;
+            margin: 15px 0;
+            width: 100%;
+            clear: both;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 30px;
+            font-size: 10pt;
+            border-top: 1px solid #D9BFB7;
+            padding-top: 10px;
+            clear: both;
+        }
+        .search-container {
+            text-align: right;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Truth Dakota</h1>
+    <div class="nav">
+        [ <a href="#">Home</a> ] 
+        [ <a href="#">Post</a> ] 
+        [ <a href="#">Boards</a> ] 
+        [ <a href="#">Rules</a> ] 
+        [ <a href="#">Wall Drug Tracker</a> ]
+    </div>
+
+    <hr>
+    
+    <div class="search-container">
+        <label>Search: <input type="text" name="search"></label>
+    </div>
+
+    <div class="post-form-container">
+        <table class="post-form">
+            <tr>
+                <td class="form-label">Name (Optional)</td>
+                <td><input type="text" size="28" name="name"></td>
+            </tr>
+            <tr>
+                <td class="form-label">Subject</td>
+                <td>
+                    <input type="text" size="28" name="subject">
+                    <input type="button" value="Send It">
+                </td>
+            </tr>
+            <tr>
+                <td class="form-label">Comment</td>
+                <td><textarea name="comment" cols="48" rows="4" wrap="soft"></textarea></td>
+            </tr>
+            <tr>
+                <td class="form-label">File</td>
+                <td><input type="file" name="upfile" size="35"></td>
+            </tr>
+        </table>
+    </div>
+
+    <hr>
+
+    <!-- Thread 1 -->
+    <div class="thread">
+        <div class="thread-header">
+            <input type="checkbox" name="delete"> 
+            <span class="subject">The "Wall Drug" Signal</span> 
+            <span class="name">Anonymous</span> 04/01/26(Wed)10:12:44 <span class="post-number">No.772109</span> 
+            [<a href="#">Reply</a>]
+        </div>
+        <div style="margin-bottom: 5px; font-size: 10pt;">
+            File: <a href="#">sign_in_the_fog.jpg</a> (22KB)
+        </div>
+        <div class="post-text">
+            <span class="quote">&gt; be me</span><br>
+            <span class="quote">&gt; driving I-90 East near Murdo</span><br>
+            <span class="quote">&gt; count 47 Wall Drug signs in 30 miles</span><br>
+            <span class="quote">&gt; notice the signs are spaced at exact mathematical intervals</span><br>
+            <span class="quote">&gt; car radio starts static-ing every time I pass one</span><br>
+            <span class="quote">&gt; realize the "Free Ice Water" isn't for us</span><br>
+            <span class="quote">&gt; it's a cooling agent for the subterranean servers they have under the Badlands</span><br>
+            <span class="quote">&gt; the signs aren't advertisements</span><br>
+            <span class="quote">&gt; they're low-frequency antennas</span><br>
+            Why does a drug store need a 6-foot tall jackalope if it's not a cloaked satellite dish? 
+        </div>
+        
+        <div class="reply-container">
+            <!-- Reply 1.1 -->
+            <div class="reply">
+                <div class="thread-header">
+                    <input type="checkbox" name="delete">
+                    <span class="name">Anonymous</span> 04/01/26(Wed)10:15:30 <span class="post-number">No.772115</span>
+                </div>
+                <div class="post-text">
+                    <span class="quote">&gt;&gt;772109</span><br>
+                    Ope, I thought I was the only one who noticed. My uncle worked on the road crews in the 90s. He said they weren't allowed to dig deeper than 4 feet near the billboards or "Special Security" from Ellsworth would show up in silent Suburbans. Stay safe, neighbor.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Thread 2 -->
+    <div class="thread">
+        <div class="thread-header">
+            <input type="checkbox" name="delete"> 
+            <span class="subject">Lincoln is Watching</span> 
+            <span class="name">Anonymous</span> 04/01/26(Wed)12:45:12 <span class="post-number">No.772250</span> 
+            [<a href="#">Reply</a>]
+        </div>
+        <div style="margin-bottom: 5px; font-size: 10pt;">
+            File: <a href="#">rushmore_zoom.png</a> (89KB)
+        </div>
+        <div class="post-text">
+            Took my high-res Nikon up to the profile view of Rushmore yesterday. <br>
+            Looked at Lincoln’s left eye. <br>
+            I didn't see granite. I saw a hexagonal lens pattern. <br>
+            When a tourist dropped their ice cream, I swear the "eye" twitched to track the movement. <br>
+            The Hall of Records isn't a time capsule for documents. It’s a server room. <br>
+            The "Faces" are just the world's most expensive camera housing.<br>
+            They aren't "founding fathers," they're "Founding Watchers."
+        </div>
+
+        <div class="reply-container"></div>
+    </div>
+
+    <hr>
+
+    <!-- Thread 3 -->
+    <div class="thread">
+        <div class="thread-header">
+            <input type="checkbox" name="delete"> 
+            <span class="subject">The Mitchell "Corn" Palace</span> 
+            <span class="name">Anonymous</span> 04/01/26(Wed)14:02:00 <span class="post-number">No.772390</span> 
+            [<a href="#">Reply</a>]
+        </div>
+        <div class="post-text">
+            Does anyone actually believe they re-decorate it every year just for "art"?<br>
+            It’s organic camouflage. <br>
+            Corn husks are excellent at absorbing radar signatures. <br>
+            If you stand in the center of the palace during a thunderstorm, you can hear a low hum that matches the frequency of the Minuteman III silos out west. <br>
+            It’s a giant biological transmitter. <br>
+            Ask yourself: Why Mitchell? Why the corn? <br>
+            Because the nitrogen in the soil acts as a natural conductor. 
+        </div>
+
+        <div class="reply-container">
+            <!-- Reply 3.1 -->
+            <div class="reply">
+                <div class="thread-header">
+                    <input type="checkbox" name="delete">
+                    <span class="name">Anonymous</span> 04/01/26(Wed)14:10:22 <span class="post-number">No.772401</span>
+                </div>
+                <div class="post-text">
+                    <span class="quote">&gt;&gt;772390</span><br>
+                    I tried to take a sample of the "decorative" corn last year. A guy in a suit told me "that's not for eating, friend" with the coldest stare I've ever seen. I'm pretty sure that corn is 40% fiberglass.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- Thread 4 -->
+    <div class="thread">
+        <div class="thread-header">
+            <input type="checkbox" name="delete"> 
+            <span class="subject">Missouri River "Large Fish"</span> 
+            <span class="name">Anonymous</span> 04/01/26(Wed)16:55:59 <span class="post-number">No.772555</span> 
+            [<a href="#">Reply</a>]
+        </div>
+        <div class="post-text">
+            Sightings near the Oahe Dam. <br>
+            People calling them "massive sturgeon."<br>
+            Sturgeon don't have metallic dorsal fins. <br>
+            Sturgeon don't submerge without leaving a wake. <br>
+            The Navy has been testing "River-Drones" in the Missouri for years. <br>
+            They move from the dam up to Bismarck under the cover of the silt. <br>
+            If you see a "big splash" near Pierre, it’s not a record-breaking catch. <br>
+            It’s a drone coming home to charge.
+        </div>
+
+        <div class="reply-container"></div>
+    </div>
+
+    <hr>
+
+    <!-- Thread 5 -->
+    <div class="thread">
+        <div class="thread-header">
+            <input type="checkbox" name="delete"> 
+            <span class="subject">The Madison "Vigilantes"</span> 
+            <span class="name">Anonymous</span> 04/01/26(Wed)23:45:10 <span class="post-number">No.881022</span> 
+            [<a href="#">Reply</a>]
+        </div>
+        <div style="margin-bottom: 5px; font-size: 10pt;">
+            File: <a href="#">blurry_cape.jpg</a> (15KB)
+        </div>
+        <div class="post-text">
+            <span class="quote">&gt; be me</span><br>
+            <span class="quote">&gt; walking home from Cherry Lanes after midnight</span><br>
+            <span class="quote">&gt; see two guys standing on the roof of the Dakota Prairie Playhouse</span><br>
+            <span class="quote">&gt; one is huge, wearing what looks like high-grade tactical kevlar and a scalloped cape</span><br>
+            <span class="quote">&gt; the other is smaller, wearing red/green, and definitely has a massive mop of curly hair sticking out from under a mask</span><br>
+            <span class="quote">&gt; blink and they're gone</span><br>
+            <span class="quote">&gt; checked every day this week at noon—nothing.</span><br> 
+            <span class="quote">&gt; they only come out when the streetlights on Egan Ave start flickering.</span><br>
+            Has anyone else noticed they NEVER show up during the day? Not even a glimpse at the Malt Shop. These guys are strictly "Lake County After Dark."
+        </div>
+
+        <div class="reply-container"></div>
+    </div>
+
+    <hr>
+
+    <!-- Thread 6 -->
+    <div class="thread">
+        <div class="thread-header">
+            <input type="checkbox" name="delete"> 
+            <span class="subject">MPD is in on it</span> 
+            <span class="name">Anonymous</span> 04/01/26(Wed)01:12:05 <span class="post-number">No.881105</span> 
+            [<a href="#">Reply</a>]
+        </div>
+        <div class="post-text">
+            I was sitting in my truck near the 2nd Street intersection last night. <br>
+            A black, low-profile vehicle (definitely NOT an MPD unmarked car) pulls up.<br>
+            Two guys in costumes hop out. <br>
+            Instead of drawing weapons, the MPD officer on duty just nods and starts SHOWING THEM A CLIPBOARD.<br>
+            They stood there talking for ten minutes like they were discussing the city budget. <br>
+            The big guy (Batman?) looked like he was giving orders. <br>
+            Why is the Madison Police Department taking tactical advice from a guy in a bat suit? <br>
+            Is the Mayor's office outsourced to Gotham now?
+        </div>
+
+        <div class="reply-container"></div>
+    </div>
+
+    <hr>
+
+    <!-- Thread 7 -->
+    <div class="thread">
+        <div class="thread-header">
+            <input type="checkbox" name="delete"> 
+            <span class="subject">9:10 PM Library Blockade</span> 
+            <span class="name">Anonymous</span> 04/01/26(Wed)21:40:33 <span class="post-number">No.881290</span> 
+            [<a href="#">Reply</a>]
+        </div>
+        <div style="margin-bottom: 5px; font-size: 10pt;">
+            File: <a href="#">library_lights.png</a> (44KB)
+        </div>
+        <div class="post-text">
+            <span class="quote">&gt; try to return a book at the Madison Public Library drop-box tonight</span><br>
+            <span class="quote">&gt; get stopped at 9:10 PM by a full police blockade</span><br>
+            <span class="quote">&gt; 4 squad cars blocking E. Center Street</span><br>
+            <span class="quote">&gt; No sirens, just those special MPD tags in the windshields</span><br>
+            <span class="quote">&gt; I see the "Curly Robin" kid jumping off the library roof into the back of a black tank-looking car</span><br>
+            <span class="quote">&gt; Police just watch them leave and then pack up the blockade at exactly 9:30 PM</span><br> 
+            <span class="quote">&gt; Library was closed for over an hour by then.</span><br> 
+            What were they doing in the archives? <br>
+            Does the library have a "Secret Room" too, or is there something in the basement the county doesn't want us to read?
+        </div>
+
+        <div class="reply-container">
+            <!-- Reply 7.1 -->
+            <div class="reply">
+                <div class="thread-header">
+                    <input type="checkbox" name="delete">
+                    <span class="name">Anonymous</span> 04/01/26(Wed)21:55:12 <span class="post-number">No.881310</span>
+                </div>
+                <div class="post-text">
+                    <span class="quote">&gt;&gt;881290</span><br>
+                    I saw the curly-haired kid too! He looked way too young to be dealing with the MPD. I think they're looking for the tunnels that supposedly run from the Library to the DSU campus. My grandma says they used them to move "sensitive materials" during the Cold War.
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="footer">
+        Truth Dakota is not a government entity. We think.
+    </div>
+
+</body>
+</html>
