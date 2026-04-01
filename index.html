@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Truth Dakota</title>
     <style>
         body {
@@ -117,6 +118,15 @@
         .search-container {
             text-align: right;
             margin-bottom: 10px;
+        }
+        @media only screen and (max-width: 600px) {
+            body { padding: 4px; }
+            .post-form-container { width: 100%; max-width: 100%; overflow-x: auto; justify-content: flex-start; }
+            table.post-form { width: 100%; max-width: 100%; }
+            input, textarea { max-width: 100%; box-sizing: border-box; }
+            .post-text { overflow-wrap: break-word; word-wrap: break-word; font-size: 11pt; }
+            .reply { margin-left: 5px; width: 100%; box-sizing: border-box; }
+            .thread-header { overflow-wrap: break-word; word-wrap: break-word; }
         }
     </style>
 </head>
